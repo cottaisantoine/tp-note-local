@@ -1,0 +1,19 @@
+1) 
+a) mkdir tp-note-local
+
+  356  cd tp-note-local/
+  357  touch README.md
+
+  359  cat README.md 
+  360  cat README.md 
+  361  touch.gitignore
+  362  touch .gitignore
+  363  cat .gitignore 
+  364  echo .gitignore 
+  365  echo "cache" >> .gitignore 
+  366  cat .gitignore 
+  367  rm .gitignore 
+  368  touch .gitignore
+  369  echo "*~" >> .gitignore 
+d) cat .gitignore
+e) 

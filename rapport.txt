@@ -1,19 +1,28 @@
 1) 
 a) mkdir tp-note-local
 
-  356  cd tp-note-local/
-  357  touch README.md
+b) cd tp-note-local/
+   touch README.md
+   cat README.md 
 
-  359  cat README.md 
-  360  cat README.md 
-  361  touch.gitignore
-  362  touch .gitignore
-  363  cat .gitignore 
-  364  echo .gitignore 
-  365  echo "cache" >> .gitignore 
-  366  cat .gitignore 
-  367  rm .gitignore 
-  368  touch .gitignore
-  369  echo "*~" >> .gitignore 
-d) cat .gitignore
+c) touch .gitignore
+   echo "*~" >> .gitignore 
+
+d) git commit -m "tp-note-local"
+
+e) git remote add origin https://github.com/cottaisantoine/tp-note-local
+   git push origin master
+
+2)
+b) git clone https://github.com/cottaisantoine/tp-note-distant
+
+c) echo "COTTAIS Antoine / IZAUTE Benoît" >> README.md
+
+d) 
+--> echo "git log" >>  README.md
+--> echo "git remote -verbose" >>  README.md
+--> echo "git status" >>  README.md
+--> echo "git diff --cached" >>  README.md
+--> echo "git log -2" >>  README.md
+
 e) 
